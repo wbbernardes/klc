@@ -11,17 +11,21 @@ struct UserListView: View {
     @StateObject var viewModel: UserViewModel = UserViewModel()
     
     var body: some View {
-        NavigationView {
+        VStack {
+            //        NavigationView {
             List(viewModel.users) { user in
-                NavigationLink(destination: <#T##Destination#>, label: <#T##() -> Label#>)
-                UserListItem(user: user)
+                NavigationLink(destination: UserDetailView()) {
+                    UserListItem(user: user)
+                        .listRowInsets(EdgeInsets())
+                }
             }
             .navigationTitle("Favorites")
             
-        }
-        .onAppear {
-            Task {
-                await viewModel.loadUsers()
+            //        }
+            .onAppear {
+                Task {
+                    await viewModel.loadUsers()
+                }
             }
         }
     }

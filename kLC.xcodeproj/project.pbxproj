@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B10467612AEAFA7700772EEA /* kLCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10467602AEAFA7700772EEA /* kLCApp.swift */; };
-		B10467632AEAFA7700772EEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10467622AEAFA7700772EEA /* ContentView.swift */; };
 		B10467652AEAFA7900772EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10467642AEAFA7900772EEA /* Assets.xcassets */; };
 		B10467682AEAFA7900772EEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10467672AEAFA7900772EEA /* Preview Assets.xcassets */; };
 		B10467722AEAFA7900772EEA /* kLCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10467712AEAFA7900772EEA /* kLCTests.swift */; };
 		B104677C2AEAFA7900772EEA /* kLCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104677B2AEAFA7900772EEA /* kLCUITests.swift */; };
 		B104677E2AEAFA7900772EEA /* kLCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104677D2AEAFA7900772EEA /* kLCUITestsLaunchTests.swift */; };
+		B104678D2AEAFB2800772EEA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104678C2AEAFB2800772EEA /* User.swift */; };
+		B104678F2AEAFCCD00772EEA /* NetworkAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104678E2AEAFCCD00772EEA /* NetworkAPIRequest.swift */; };
+		B10467912AEAFE0C00772EEA /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10467902AEAFE0C00772EEA /* UserViewModel.swift */; };
+		B10467942AEB004300772EEA /* UserListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10467932AEB004300772EEA /* UserListItem.swift */; };
+		B10467962AEB034300772EEA /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10467952AEB034300772EEA /* UserListView.swift */; };
+		B104679A2AEB066C00772EEA /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10467992AEB066C00772EEA /* UserDetailView.swift */; };
+		B104679C2AEB083400772EEA /* TabContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104679B2AEB083400772EEA /* TabContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		B104675D2AEAFA7700772EEA /* kLC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kLC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10467602AEAFA7700772EEA /* kLCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kLCApp.swift; sourceTree = "<group>"; };
-		B10467622AEAFA7700772EEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B10467642AEAFA7900772EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B10467672AEAFA7900772EEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B104676D2AEAFA7900772EEA /* kLCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kLCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 		B10467772AEAFA7900772EEA /* kLCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kLCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B104677B2AEAFA7900772EEA /* kLCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kLCUITests.swift; sourceTree = "<group>"; };
 		B104677D2AEAFA7900772EEA /* kLCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kLCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B104678C2AEAFB2800772EEA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B104678E2AEAFCCD00772EEA /* NetworkAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIRequest.swift; sourceTree = "<group>"; };
+		B10467902AEAFE0C00772EEA /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		B10467932AEB004300772EEA /* UserListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListItem.swift; sourceTree = "<group>"; };
+		B10467952AEB034300772EEA /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		B10467992AEB066C00772EEA /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		B104679B2AEB083400772EEA /* TabContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				B10467602AEAFA7700772EEA /* kLCApp.swift */,
-				B10467622AEAFA7700772EEA /* ContentView.swift */,
+				B104679B2AEB083400772EEA /* TabContentView.swift */,
+				B10467982AEB065B00772EEA /* ContactView */,
+				B10467972AEB064B00772EEA /* FavoriteView */,
+				B10467922AEB002900772EEA /* Components */,
+				B104678B2AEAFB1300772EEA /* Model */,
+				B104678A2AEAFB0A00772EEA /* Service */,
 				B10467642AEAFA7900772EEA /* Assets.xcassets */,
 				B10467662AEAFA7900772EEA /* Preview Content */,
 			);
@@ -125,6 +142,47 @@
 				B104677D2AEAFA7900772EEA /* kLCUITestsLaunchTests.swift */,
 			);
 			path = kLCUITests;
+			sourceTree = "<group>";
+		};
+		B104678A2AEAFB0A00772EEA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B104678E2AEAFCCD00772EEA /* NetworkAPIRequest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B104678B2AEAFB1300772EEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B104678C2AEAFB2800772EEA /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B10467922AEB002900772EEA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B10467932AEB004300772EEA /* UserListItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B10467972AEB064B00772EEA /* FavoriteView */ = {
+			isa = PBXGroup;
+			children = (
+				B10467952AEB034300772EEA /* UserListView.swift */,
+				B10467902AEAFE0C00772EEA /* UserViewModel.swift */,
+			);
+			path = FavoriteView;
+			sourceTree = "<group>";
+		};
+		B10467982AEB065B00772EEA /* ContactView */ = {
+			isa = PBXGroup;
+			children = (
+				B10467992AEB066C00772EEA /* UserDetailView.swift */,
+			);
+			path = ContactView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10467632AEAFA7700772EEA /* ContentView.swift in Sources */,
+				B10467962AEB034300772EEA /* UserListView.swift in Sources */,
 				B10467612AEAFA7700772EEA /* kLCApp.swift in Sources */,
+				B104678D2AEAFB2800772EEA /* User.swift in Sources */,
+				B104679C2AEB083400772EEA /* TabContentView.swift in Sources */,
+				B104679A2AEB066C00772EEA /* UserDetailView.swift in Sources */,
+				B10467912AEAFE0C00772EEA /* UserViewModel.swift in Sources */,
+				B104678F2AEAFCCD00772EEA /* NetworkAPIRequest.swift in Sources */,
+				B10467942AEB004300772EEA /* UserListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

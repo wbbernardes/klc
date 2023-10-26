@@ -11,7 +11,9 @@ import SwiftUI
 struct kLCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                TabContentView()
+            }
         }
     }
 }

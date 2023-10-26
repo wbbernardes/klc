@@ -9,6 +9,12 @@ import SwiftUI
 
 struct UserDetailView: View {
     var body: some View {
+        VStack {
+            
+        }
+        .onAppear {
+            //change tab
+        }
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
